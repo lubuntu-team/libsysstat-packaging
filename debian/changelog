@@ -1,3 +1,10 @@
+libsysstat (0.1.0-2) unstable; urgency=medium
+
+  * make rules less verbose
+  * set minimum version 1.0.0 for libqt5xdg 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 23 Sep 2014 13:19:41 +0200
+
 libsysstat (0.1.0-1) unstable; urgency=low
 
   * Initial release (Closes:  )
