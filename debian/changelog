@@ -1,3 +1,11 @@
+libsysstat (0.1.0-3) unstable; urgency=medium
+
+  * bump to current standards 3.9.6
+  * set hardening=+all 
+  * set min Qt version to 5.3.2
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 17 Oct 2014 21:08:38 +0200
+
 libsysstat (0.1.0-2) unstable; urgency=medium
 
   * make rules less verbose
