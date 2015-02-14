@@ -1,5 +1,5 @@
-libsysstat (0.3.0-1) unstable; urgency=low
+libsysstat (0.3.0-1) experimental; urgency=low
 
   * Initial release (Closes:  )
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 24 Feb 2014 23:41:30 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sat, 14 Feb 2015 17:58:32 +0100
