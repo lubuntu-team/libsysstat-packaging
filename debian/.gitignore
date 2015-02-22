@@ -1,0 +1,9 @@
+/*.debhelper
+/*.log
+/*.substvars
+/files
+
+/libsysstat-qt5-0/
+/libsysstat-qt5-0-dbg/
+/libsysstat-qt5-0-dev/
+/tmp
