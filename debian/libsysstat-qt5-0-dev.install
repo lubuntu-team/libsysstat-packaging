@@ -1,7 +1,10 @@
 usr/include/sysstat-qt5/
 usr/lib/*/libsysstat-qt5.so
 
-usr/share/cmake/sysstat-qt5/sysstat-qt5-config.cmake
-usr/share/cmake/sysstat-qt5/sysstat_use.cmake
 usr/lib/*/pkgconfig/sysstat-qt5.pc
+
+usr/share/cmake/sysstat-qt5/sysstat-qt5-config.cmake
+usr/share/cmake/sysstat-qt5/sysstat-qt5-config-version.cmake
+usr/share/cmake/sysstat-qt5/sysstat-qt5-targets.cmake
+usr/share/cmake/sysstat-qt5/sysstat-qt5-targets-none.cmake
 
