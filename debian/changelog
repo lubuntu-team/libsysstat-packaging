@@ -1,5 +1,30 @@
-libsysstat (0.3.0+20150806-1) unstable; urgency=low
+libsysstat (0.3.0+20150806-1) unstable; urgency=medium
 
+  [ Alf Gaida ]
   * Initial release (Closes: #761270)
+  * Initial debian files
+  * symbols file added - tested for amd64 and i386
+  * Added .gitignore 
+  * Cherry-picking upstream version 0.3.0+201500806
+  * Fixed copyright to LGPL2.1+ only
+  * Added linker flags to rules
+  * Added upstream signing key
+  * Changed mail address czchen
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 31 Aug 2015 18:42:31 +0200
+  [Andrew Lee (李健秋)
+  * Adding upstream version 0.3.0.
+
+  [ Shih-Yuan Lee (FourDollars) ]
+  * Imported Upstream version 0.3.0
+  * Merge branch 'upstream' into debian
+  * Add debian/gbp.conf for xz compression format.
+  * Merge remote-tracking branch 'origin/fix-multiarch'
+
+  [ Wei-Cheng Pan ]
+  * fix multiarch install path
+  * do not install files that do not exist
+
+  [ Wen.Liao ]
+  * Remove un-needed dependency: libqt5xdg-dev
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 16 Sep 2015 00:18:42 +0200
