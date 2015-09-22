@@ -11,7 +11,7 @@ libsysstat (0.3.0+20150806-1) unstable; urgency=medium
   * Added upstream signing key
   * Changed mail address czchen
 
-  [Andrew Lee (李健秋)
+  [ Andrew Lee (李健秋) ]
   * Adding upstream version 0.3.0.
 
   [ Shih-Yuan Lee (FourDollars) ]
