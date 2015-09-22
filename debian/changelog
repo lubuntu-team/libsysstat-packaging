@@ -27,4 +27,4 @@ libsysstat (0.3.0+20150806-1) unstable; urgency=medium
   [ Wen.Liao ]
   * Remove un-needed dependency: libqt5xdg-dev
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 16 Sep 2015 00:18:42 +0200
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Tue, 22 Sep 2015 21:35:12 +0800
