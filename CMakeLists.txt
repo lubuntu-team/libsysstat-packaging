@@ -4,7 +4,7 @@ project(libsysstat)
 
 set(MAJOR_VERSION 0)
 set(MINOR_VERSION 3)
-set(PATCH_VERSION 0)
+set(PATCH_VERSION 1)
 set(SYSSTAT_VERSION "${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}")
 
 # additional cmake files
@@ -16,8 +16,6 @@ include(create_pkgconfig_file)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 find_package(Qt5Core REQUIRED QUIET)
-#find_package(Qt5LinguistTools REQUIRED QUIET)
-
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -59,12 +57,6 @@ set(SYSSTAT_SRCS
     netstat.cpp
 )
 
-## Translations
-#file(GLOB SYSSTAT_TS_FILES
-#    translations/*.ts
-#)
-#
-#qt5_add_translation(SYSSTAT_QM_FILES ${SYSSTAT_TS_FILES})
 set(SYSSTAT_QM_FILES "")
 
 if(NOT CMAKE_BUILD_TYPE)
@@ -73,8 +65,6 @@ endif()
 
 
 set(APP_SHARE_DIR "${CMAKE_INSTALL_DATAROOTDIR}/${SYSSTAT_LIBRARY_NAME}")
-
-#add_definitions(-DTRANSLATIONS_DIR=\"${APP_SHARE_DIR}\")
 
 add_library(${SYSSTAT_LIBRARY_NAME}
     SHARED
