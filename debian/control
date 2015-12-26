@@ -34,15 +34,3 @@ Description: Qt-based interface to system statistics (dev)
  SysStat is a Qt-based interface to system statistics.
  .
  This package contain the development files.
-
-Package: libsysstat-qt5-0-dbg
-Architecture: any
-Multi-Arch: same
-Section: debug
-Priority: extra
-Depends: ${misc:Depends},
-         libsysstat-qt5-0 (= ${binary:Version})
-Description: Qt-based interface to system statistics (debug)
- SysStat is a Qt-based interface to system statistics.
- .
- This package contain the debugging symbols.
