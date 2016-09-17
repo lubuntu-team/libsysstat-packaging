@@ -4,7 +4,7 @@ project(libsysstat)
 
 set(MAJOR_VERSION 0)
 set(MINOR_VERSION 3)
-set(PATCH_VERSION 1)
+set(PATCH_VERSION 2)
 set(SYSSTAT_VERSION "${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}")
 
 # additional cmake files
@@ -161,7 +161,7 @@ configure_package_config_file(
 # cmake version config file
 write_basic_package_version_file(
     "${CMAKE_BINARY_DIR}/${SYSSTAT_LIBRARY_NAME}-config-version.cmake"
-    VERSION ${MAJOR}.${MINOR}.${PATCH}
+    VERSION ${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}
     COMPATIBILITY AnyNewerVersion
 )
 

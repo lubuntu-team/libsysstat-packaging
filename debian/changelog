@@ -1,3 +1,19 @@
+libsysstat (0.3.2-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream release 0.3.2
+  * Bump compat to 10
+  * Build depend on debhelper (>= 10)
+  * Fixed VCS-Fields, use secure uri's
+  * Bumped standards to 3.9.8, no changes needed
+  * Fixed Format field in copyright, use a secure uri
+  * Bumped years in copyright
+  * Added README.md to docs
+  * Added hardening flags to rules
+  * Fixed debian/watch
+  * Added a valid upstream signing-key
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Sep 2016 23:50:00 +0200
+
 libsysstat (0.3.1-2) unstable; urgency=medium
 
   * Remove dbg package in favor of dbgsym.
