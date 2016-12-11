@@ -9,8 +9,10 @@ libsysstat (0.3.3-1) unstable; urgency=medium
   * Added build-dependency lxqt-build-tools (>= 0.3.0)
   * Fixed typo in VCS-Fields
   * Removed --parallel from debian/rules, standard compat 10
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Set LC_ALL=C.UTF-8
   
- -- Alf Gaida <agaida@siduction.org>  Sun, 11 Dec 2016 20:30:13 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 11 Dec 2016 23:14:23 +0100
 
 libsysstat (0.3.2-1) unstable; urgency=medium
 

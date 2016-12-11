@@ -6,4 +6,4 @@ usr/lib/*/pkgconfig/sysstat-qt5.pc
 usr/share/cmake/sysstat-qt5/sysstat-qt5-config.cmake
 usr/share/cmake/sysstat-qt5/sysstat-qt5-config-version.cmake
 usr/share/cmake/sysstat-qt5/sysstat-qt5-targets.cmake
-usr/share/cmake/sysstat-qt5/sysstat-qt5-targets-none.cmake
+usr/share/cmake/sysstat-qt5/sysstat-qt5-targets-relwithdebinfo.cmake
