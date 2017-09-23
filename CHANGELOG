@@ -1,7 +1,19 @@
 
-libsysstat-0.3.3 / 2016-12-11
+libsysstat-0.4.0 / 2017-09-23
 =============================
 
+  * correct spelling mistake
+  * bump version and needed version of lxqt-build-tools
+  * liblxqt make no sense here
+  * Copied issue template
+  * Drops Qt5Core_VERSION_STRING
+  * Fixes (#17)
+  * Bump years
+
+0.3.3 / 2016-12-11
+==================
+
+  * Release 0.3.3: Update changelog
   * Bump patch version to 3
   * Simplify include_directories and compile definitions
   * Adds Building project name and Qt version message
