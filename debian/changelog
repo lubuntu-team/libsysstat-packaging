@@ -1,3 +1,14 @@
+libsysstat (0.4.0-1) experimental; urgency=medium
+
+  * Cherry-picking new upstream release 0.4.0
+  * Switched to experimental
+  * Bumped Standards to 4.1.0
+  * Make a separated dh_missing override
+  * Bumped needed versions
+  * Fixed years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 23 Sep 2017 16:49:29 +0200
+
 libsysstat (0.3.3-1) unstable; urgency=medium
 
   * Cherry-picking new upstream-release 0.3.3.
