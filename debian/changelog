@@ -1,3 +1,9 @@
+libsysstat (0.4.0-2) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 03:26:17 +0100
+
 libsysstat (0.4.0-1) experimental; urgency=medium
 
   * Cherry-picking new upstream release 0.4.0.
