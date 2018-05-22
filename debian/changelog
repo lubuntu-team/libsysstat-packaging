@@ -5,6 +5,7 @@ libsysstat (0.4.1-0ubuntu1) UNRELEASED; urgency=medium
   * Update copyright.
   * Bump build dependencies.
   * Update the watch file to point to the new upstream location.
+  * Remove trailing whitespace from the changelog file.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 21 May 2018 21:25:23 -0500
 
@@ -57,7 +58,7 @@ libsysstat (0.3.3-1) unstable; urgency=medium
   * Removed --parallel from debian/rules, standard compat 10
   * Set CMAKE_BUILD_TYPE=RelWithDebInfo
   * Set LC_ALL=C.UTF-8
-  
+
  -- Alf Gaida <agaida@siduction.org>  Sun, 11 Dec 2016 23:14:23 +0100
 
 libsysstat (0.3.2-1) unstable; urgency=medium
@@ -94,7 +95,7 @@ libsysstat (0.3.0+20150806-1) unstable; urgency=medium
   * Initial release (Closes: #761270)
   * Initial debian files
   * symbols file added - tested for amd64 and i386
-  * Added .gitignore 
+  * Added .gitignore
   * Cherry-picking upstream version 0.3.0+201500806
   * Fixed copyright to LGPL2.1+ only
   * Added linker flags to rules
