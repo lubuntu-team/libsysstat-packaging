@@ -1,6 +1,7 @@
 libsysstat (0.4.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update Vcs-* and Maintainer to Lubuntu values.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 21 May 2018 21:25:23 -0500
 
