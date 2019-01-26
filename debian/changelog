@@ -1,3 +1,9 @@
+libsysstat (0.4.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:23:12 -0600
+
 libsysstat (0.4.1-0ubuntu1) cosmic; urgency=medium
 
   * New upstream release.
