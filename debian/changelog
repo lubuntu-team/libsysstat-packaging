@@ -1,10 +1,10 @@
-libsysstat (0.4.2-0ubuntu1) UNRELEASED; urgency=medium
+libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
   * Bump Standards-version to 4.3.0, no changes needed.
   * Bump debhelper compat to 12, no changes needed.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:23:12 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:26:21 -0600
 
 libsysstat (0.4.1-0ubuntu1) cosmic; urgency=medium
 
