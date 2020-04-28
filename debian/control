@@ -6,7 +6,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 12), lxqt-build-tools (>= 0.5.0)
+Build-Depends: debhelper-compat (= 12), lxqt-build-tools (>= 0.7.0)
 Standards-Version: 4.5.0
 Vcs-Browser: https://phab.lubuntu.me/source/libsysstat/
 Vcs-Git: https://phab.lubuntu.me/source/libsysstat.git
