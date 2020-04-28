@@ -2,6 +2,7 @@ libsysstat (0.4.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Bump Standards-version to 4.5.0, no changes needed.
+  * debhelper -> debhelper-compat.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 28 Apr 2020 18:01:12 -0500
 
