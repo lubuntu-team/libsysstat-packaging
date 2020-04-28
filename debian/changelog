@@ -1,3 +1,9 @@
+libsysstat (0.4.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 28 Apr 2020 18:01:12 -0500
+
 libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
