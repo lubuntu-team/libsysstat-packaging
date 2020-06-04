@@ -1,4 +1,4 @@
-libsysstat (0.4.3-0ubuntu1) UNRELEASED; urgency=medium
+libsysstat (0.4.3-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
     - Update upstream signing key.
@@ -7,7 +7,7 @@ libsysstat (0.4.3-0ubuntu1) UNRELEASED; urgency=medium
   * debhelper -> debhelper-compat.
   * Run wrap-and-sort.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 28 Apr 2020 18:01:12 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jun 2020 23:22:21 -0500
 
 libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
 
