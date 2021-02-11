@@ -1,3 +1,22 @@
+libsysstat (0.4.4-1ubuntu1) hirsute; urgency=medium
+
+  * Merge from debian unstable.
+  * Bumped debhelper-compat to 13.
+
+ -- Raman Sarda <theloudspeaker@disroot.org>  Fri, 12 Feb 2021 02:54:27 +0530
+
+libsysstat (0.4.4-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+  * Added myself as uploader.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 06:29:33 +0800
+
 libsysstat (0.4.3-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
@@ -9,6 +28,18 @@ libsysstat (0.4.3-0ubuntu1) groovy; urgency=medium
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jun 2020 23:22:21 -0500
 
+libsysstat (0.4.2-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream release 0.4.2.
+  * Bump Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Added Build-Depends-Package field to symbols
+  * Fixed years in d/copyright
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 13:53:21 +0100
+
 libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
@@ -16,6 +47,19 @@ libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
   * Bump debhelper compat to 12, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:26:21 -0600
+
+libsysstat (0.4.1-2) unstable; urgency=medium
+
+  * lxqt-build-tools >= 0.5.0~ is needed
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 May 2018 03:26:50 +0200
+
+libsysstat (0.4.1-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream release 0.4.1.
+  * Fixed watchfile url to lxqt
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 May 2018 02:18:52 +0200
 
 libsysstat (0.4.1-0ubuntu1) cosmic; urgency=medium
 
@@ -138,3 +182,4 @@ libsysstat (0.3.0+20150806-1) unstable; urgency=medium
   * Remove un-needed dependency: libqt5xdg-dev
 
  -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Tue, 22 Sep 2015 21:35:12 +0800
+
