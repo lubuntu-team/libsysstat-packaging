@@ -1,3 +1,14 @@
+libsysstat (0.4.5-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 0.4.5
+  * Update debian/control
+    - Bump Standards-Version to 4.5.1
+    - Use lxqt-build-tools 0.9.0
+  * Added Build-Depends-Package metadata field to symbols
+  * Update debian/copyright
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Thu, 12 Aug 2021 11:24:57 +0200
+
 libsysstat (0.4.4-1ubuntu1) hirsute; urgency=medium
 
   * Merge from debian unstable.

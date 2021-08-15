@@ -5,10 +5,12 @@ Source: https://github.com/lxqt/libsysstat
 Files: *
 Copyright: 2012-2018 LXQt team
            2012 Razor team
+           2009-2012, Kuzma Shapran <kuzma.shapran@gmail.com>
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2014-2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2021, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2014-2018 Alf Gaida <agaida@siduction.org>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
