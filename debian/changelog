@@ -3,6 +3,7 @@ libsysstat (0.4.6-1~ppa1) jammy; urgency=medium
   * Backport to Jammy.
   * Removed "-Wl,--as-needed" flag from debian/rules.
   * Ran wrap-and-sort.
+  * Bumped standards-version, no changes necessary.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 22 Jun 2022 02:27:34 -0500
 
