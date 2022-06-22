@@ -6,7 +6,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 13), lxqt-build-tools (>= 0.6.0~)
+Build-Depends: debhelper-compat (= 13), lxqt-build-tools (>= 0.11.0-0.1~)
 Standards-Version: 4.6.1
 Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/lxqt-team/libsysstat
