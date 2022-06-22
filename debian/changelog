@@ -4,6 +4,7 @@ libsysstat (0.4.6-1~ppa1) jammy; urgency=medium
   * Removed "-Wl,--as-needed" flag from debian/rules.
   * Ran wrap-and-sort.
   * Bumped standards-version, no changes necessary.
+  * Added Lubuntu Developers to debian/copyright.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 22 Jun 2022 02:27:34 -0500
 
