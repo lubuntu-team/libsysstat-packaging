@@ -1,4 +1,4 @@
-libsysstat (0.4.6-1ubuntu1~ppa1) jammy; urgency=medium
+libsysstat (0.4.6-1~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
   * Removed "-Wl,--as-needed" flag from debian/rules.
