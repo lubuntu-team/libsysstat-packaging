@@ -6,8 +6,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
-               lxqt-build-tools (>= 0.6.0~),
+Build-Depends: debhelper-compat (= 13), lxqt-build-tools (>= 0.6.0~)
 Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/lxqt-team/libsysstat
@@ -17,8 +16,7 @@ Homepage: https://github.com/lxqt/libsysstat
 Package: libsysstat-qt5-0
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends},
-         ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt-based interface to system statistics
  SysStat is a Qt-based interface to system statistics.
  .
@@ -27,8 +25,7 @@ Description: Qt-based interface to system statistics
 Package: libsysstat-qt5-0-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends},
-         libsysstat-qt5-0 (= ${binary:Version})
+Depends: libsysstat-qt5-0 (= ${binary:Version}), ${misc:Depends}
 Description: Qt-based interface to system statistics (dev)
  SysStat is a Qt-based interface to system statistics.
  .
