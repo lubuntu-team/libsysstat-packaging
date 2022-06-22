@@ -1,6 +1,7 @@
 libsysstat (0.4.6-1ubuntu1) UNRELEASED; urgency=medium
 
   * Backport to Jammy.
+  * Removed "-Wl,--as-needed" flag from debian/rules.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 22 Jun 2022 01:56:26 -0500
 
