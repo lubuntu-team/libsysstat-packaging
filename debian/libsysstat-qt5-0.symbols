@@ -1,4 +1,5 @@
 libsysstat-qt5.so.0 libsysstat-qt5-0 #MINVER#
+* Build-Depends-Package: libsysstat-qt5-0-dev
  (c++)"SysStat::CpuStat::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.2.0
  (c++)"SysStat::CpuStat::qt_metacast(char const*)@Base" 0.2.0
  (c++)"SysStat::CpuStat::setMonitoring(SysStat::CpuStat::Monitoring)@Base" 0.2.0
