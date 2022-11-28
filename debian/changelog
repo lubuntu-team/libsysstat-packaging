@@ -7,6 +7,7 @@ libsysstat (0.4.6-0ubuntu1) UNRELEASED; urgency=medium
   * Removed an obsolete '-Wl,--as-needed' linker flag.
   * Added 'Rules-Require-Root: no' to debian/control.
   * Created debian/upstream/metadata.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 28 Nov 2022 15:46:29 -0600
 
@@ -205,4 +206,3 @@ libsysstat (0.3.0+20150806-1) unstable; urgency=medium
   * Remove un-needed dependency: libqt5xdg-dev
 
  -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Tue, 22 Sep 2015 21:35:12 +0800
-
