@@ -1,57 +1,25 @@
-libsysstat (0.4.6-0ubuntu1) lunar; urgency=medium
+libsysstat (0.4.6-2) unstable; urgency=medium
 
-  * New upstream release 0.4.6.
-  * Overhauled watch file to make it compatible with GitHub again.
-  * Updated copyright file.
-  * Bumped Standards-Version to 4.6.1, no changes necessary.
-  * Removed an obsolete '-Wl,--as-needed' linker flag.
-  * Added 'Rules-Require-Root: no' to debian/control.
-  * Created debian/upstream/metadata.
-  * Removed trailing whitespace from changelog.
-  * Changed Vcs-Browser and Vcs-Git fields to point to Gitea rather than Phab.
+  * Fix d/watch for GitHub.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 28 Nov 2022 16:26:08 -0600
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 21 Nov 2022 22:52:41 +0800
 
-libsysstat (0.4.5-0ubuntu1) impish; urgency=medium
-
-  * New upstream release 0.4.5
-  * Update debian/control
-    - Bump Standards-Version to 4.5.1
-    - Use lxqt-build-tools 0.9.0
-  * Added Build-Depends-Package metadata field to symbols
-  * Update debian/copyright
-
- -- apt-ghetto <apt-ghetto@protonmail.com>  Thu, 12 Aug 2021 11:24:57 +0200
-
-libsysstat (0.4.4-1ubuntu1) hirsute; urgency=medium
-
-  * Merge from debian unstable.
-  * Bumped debhelper-compat to 13.
-
- -- Raman Sarda <theloudspeaker@disroot.org>  Fri, 12 Feb 2021 02:54:27 +0530
-
-libsysstat (0.4.4-1) unstable; urgency=medium
+libsysstat (0.4.6-1) unstable; urgency=medium
 
   [ Alf Gaida ]
-  * Switched to gbp
-  * Bumped Standards-Version to 4.4.0, no changes needed
+  * Switched to gbp.
 
   [ Andrew Lee (李健秋) ]
   * New upstream release.
   * Added myself as uploader.
 
- -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 06:29:33 +0800
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Bump Standards-Version to 4.6.0.
+  * Bump compat to 13.
+  * Add Rules-Requires-Root: no.
+  * Fix wrong field name in d/upstream/metadata.
 
-libsysstat (0.4.3-0ubuntu1) groovy; urgency=medium
-
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build dependencies.
-  * Bump Standards-version to 4.5.0, no changes needed.
-  * debhelper -> debhelper-compat.
-  * Run wrap-and-sort.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jun 2020 23:22:21 -0500
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 09 Feb 2022 23:16:01 +0800
 
 libsysstat (0.4.2-1) unstable; urgency=medium
 
@@ -65,14 +33,6 @@ libsysstat (0.4.2-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 13:53:21 +0100
 
-libsysstat (0.4.2-0ubuntu1) disco; urgency=medium
-
-  * New upstream release.
-  * Bump Standards-version to 4.3.0, no changes needed.
-  * Bump debhelper compat to 12, no changes needed.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:26:21 -0600
-
 libsysstat (0.4.1-2) unstable; urgency=medium
 
   * lxqt-build-tools >= 0.5.0~ is needed
@@ -85,17 +45,6 @@ libsysstat (0.4.1-1) unstable; urgency=medium
   * Fixed watchfile url to lxqt
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 23 May 2018 02:18:52 +0200
-
-libsysstat (0.4.1-0ubuntu1) cosmic; urgency=medium
-
-  * New upstream release.
-  * Update Vcs-* and Maintainer to Lubuntu values.
-  * Update copyright.
-  * Bump build dependencies.
-  * Update the watch file to point to the new upstream location.
-  * Remove trailing whitespace from the changelog file.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 21 May 2018 22:12:03 -0500
 
 libsysstat (0.4.0-4) unstable; urgency=medium
 
