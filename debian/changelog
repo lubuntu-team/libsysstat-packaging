@@ -6,6 +6,7 @@ libsysstat (0.4.6-2ubuntu1) lunar; urgency=medium
   * Bumped build dependencies.
   * Bumped Standards-Version to 4.6.2, no changes necessary.
   * Updated copyright file.
+  * Rebuild against lxqt-build-tools 0.12.0-0ubuntu3.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 09 Feb 2023 14:03:21 -0600
 
