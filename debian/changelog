@@ -1,3 +1,9 @@
+libsysstat (1.0.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 17 Jun 2024 13:09:27 -0500
+
 libsysstat (0.4.6-2ubuntu1) lunar; urgency=medium
 
   * Revert a sync from Debian.
