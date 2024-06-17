@@ -17,7 +17,7 @@ XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/libsysstat.git
 Homepage: https://github.com/lxqt/libsysstat
 Rules-Requires-Root: no
 
-Package: libsysstat-qt6-0
+Package: libsysstat-qt6-1
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -26,10 +26,10 @@ Description: Qt-based interface to system statistics
  .
  This package contain the shared library.
 
-Package: libsysstat-qt6-0-dev
+Package: libsysstat-qt6-1-dev
 Architecture: any
 Section: libdevel
-Depends: libsysstat-qt5-0 (= ${binary:Version}), ${misc:Depends}
+Depends: libsysstat-qt6-1 (= ${binary:Version}), ${misc:Depends}
 Description: Qt-based interface to system statistics (dev)
  SysStat is a Qt-based interface to system statistics.
  .
