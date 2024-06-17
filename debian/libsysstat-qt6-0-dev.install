@@ -1,7 +1,7 @@
-usr/include/sysstat-qt5/
-usr/lib/*/libsysstat-qt5.so
-usr/lib/*/pkgconfig/sysstat-qt5.pc
-usr/share/cmake/sysstat-qt5/sysstat-qt5-config-version.cmake
-usr/share/cmake/sysstat-qt5/sysstat-qt5-config.cmake
-usr/share/cmake/sysstat-qt5/sysstat-qt5-targets-relwithdebinfo.cmake
-usr/share/cmake/sysstat-qt5/sysstat-qt5-targets.cmake
+usr/include/sysstat-qt6/
+usr/lib/*/libsysstat-qt6.so
+usr/lib/*/pkgconfig/sysstat-qt6.pc
+usr/share/cmake/sysstat-qt6/sysstat-qt6-config-version.cmake
+usr/share/cmake/sysstat-qt6/sysstat-qt6-config.cmake
+usr/share/cmake/sysstat-qt6/sysstat-qt6-targets-relwithdebinfo.cmake
+usr/share/cmake/sysstat-qt6/sysstat-qt6-targets.cmake
