@@ -4,6 +4,7 @@ libsysstat (1.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Bump build deps.
   * Bump package names for Qt6.
+  * Update copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 17 Jun 2024 13:09:27 -0500
 
