@@ -2,6 +2,7 @@ libsysstat (1.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
+  * Make the package Lintian-clean.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 11:59:16 -0600
 

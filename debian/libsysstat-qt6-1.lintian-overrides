@@ -1,0 +1,2 @@
+# False positive
+libsysstat-qt6-1: hardening-no-fortify-functions [usr/lib/x86_64-linux-gnu/*]
